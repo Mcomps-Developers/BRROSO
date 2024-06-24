@@ -135,40 +135,18 @@
                             <li class="nav-item">
                                 <a href="/" class="nav-link active">Home</a>
                             </li>
+                            
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Pages <i
-                                        class="icofont-simple-down"></i></a>
+                                <a href="#" class="nav-link dropdown-toggle">Media</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Users <i
-                                                class="icofont-simple-down"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="{{ route('login') }}" class="nav-link">Sign In</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{ route('register') }}" class="nav-link">Sign Up</a>
-                                            </li>
-                                        </ul>
+                                        <a href="{{ route('blog') }}" class="nav-link">Blog</a>
                                     </li>
+
+
                                     <li class="nav-item">
-                                        <a href="{{ route('galary') }}" class="nav-link">Gallery</a>
+                                        <a href="{{ route('events') }}" class="nav-link">Events</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="{{ route('testimonials') }}" class="nav-link">Testimonials</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="{{ route('team') }}" class="nav-link">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="{{ route('faq') }}" class="nav-link">FAQ</a>
-                                    </li>
-                                    {{-- <li class="nav-item">
-                                        <a href="404.html" class="nav-link">404 Error Page</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="coming-soon.html" class="nav-link">Coming Soon</a>
-                                    </li> --}}
                                     <li class="nav-item">
                                         <a href="{{ route('privacy.policy') }}" class="nav-link">Privacy Policy</a>
                                     </li>
@@ -176,20 +154,32 @@
                                         <a href="{{ route('terms.and.conditions') }}" class="nav-link">Terms &
                                             Conditions</a>
                                     </li>
+
+
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="{{ route('about') }}" class="nav-link">About</a>
+                                <a href="#" class="nav-link dropdown-toggle">About</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="{{ route('about') }}" class="nav-link">About BRROS</a>
+                                    </li>
+                                   
+                                    <li class="nav-item">
+                                        <a href="{{ route('team') }}" class="nav-link">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('faq') }}" class="nav-link">FAQ</a>
+                                    </li>
+
+
+                                </ul>
                             </li>
+
                             <li class="nav-item">
                                 <a href="{{ route('causes') }}" class="nav-link">Causes</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ route('events') }}" class="nav-link">Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('blog') }}" class="nav-link">Blog</a>
-                            </li>
+                            
 
                             <li class="nav-item">
                                 <a href="{{ route('contact') }}" class="nav-link">Contact</a>
