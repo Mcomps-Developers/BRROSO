@@ -50,11 +50,11 @@
                             </li>
                             <li>
                                 <i class="icofont-ui-call"></i>
-                                <a href="tel:0123456987">+252614756688</a>
+                                <a href="tel:+252614756688">+252614756688</a>
                             </li>
                             <li>
                                 <i class="icofont-ui-email"></i>
-                                <a href="mailto:info@brroso.org">info@brroso.org</a>
+                                <a href="bilan.brro@gmail.com">bilan.brro@gmail.com</a>
                             </li>
                         </ul>
                     </div>
@@ -137,7 +137,7 @@
                                 <a href="#" class="nav-link dropdown-toggle">Media</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ route('blog') }}" class="nav-link">Blog</a>
+                                        <a href="{{ route('blog') }}" class="nav-link">Blogs</a>
                                     </li>
 
 
@@ -207,8 +207,8 @@
                             <a class="logo" href="/">
                                 <img src="{{ asset('assets/img/logo.jpg') }}" height="60" width="60">
                             </a>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero, magni est placeat
-                                neque, repellat maxime a dolore</p>
+                            <p>Join us in our commitment to provide relief and recovery services to vulnerable communities in Somalia.
+                                Together, we can make a lasting impact and contribute to positive change. </p>
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com" target="_blank">

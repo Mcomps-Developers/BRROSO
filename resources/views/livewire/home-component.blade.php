@@ -137,25 +137,26 @@
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">Causes to care</span>
-                <h2>Be the reason of someone smiles</h2>
-                <p>We exist for non-profits, social enterprises, community groups, activists,lorem politicians and
-                    individual citizens that are making.</p>
+                <h2>CAMP COORDINATION AND CAMP MANAGEMENT (CCCM) INTERVENTION:</h2>
+                <p>The Camp Coordination and Camp Management (CCCM) intervention focuses on effective
+                    coordination and management of camps to provide assistance and protection to internally displaced
+                    persons (IDPs).</p>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-lg-4">
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation1.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="donation-details.html">Donate Now</a>
+                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
-                                <a class="tags" href="#">#Medical</a>
+                                <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="donation-details.html">Need help for treatment</a>
+                                    <a href="{{route('donation.details')}}">Health Intervation</a>
                                 </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
+                                <p>Health intervention provides primary healthcare, medicines, reproductive health services,
+                                     trauma care, and community education efforts.</p>
                             </div>
                             <div class="bottom">
                                 <div class="skill">
@@ -176,16 +177,16 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation2.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="donation-details.html">Donate Now</a>
+                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
-                                <a class="tags" href="#">#Education</a>
+                                <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="donation-details.html">Education for poor children</a>
+                                    <a href="{{route('donation.details')}}">Nutrition Intervention</a>
                                 </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
+                                <p>Nutrition intervention targets malnutrition with screenings, care services,
+                                     feeding programs, and CHW education efforts.</p>
                             </div>
                             <div class="bottom">
                                 <div class="skill">
@@ -206,16 +207,16 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation3.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="donation-details.html">Donate Now</a>
+                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
-                                <a class="tags" href="#">#Family</a>
+                                <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="donation-details.html">Financial help for poor</a>
+                                    <a href="{{route('donation.details')}}">Protection Intervention</a>
                                 </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
+                                <p>WASH intervention improves water access, sanitation, and hygiene through
+                                    infrastructure, emergency supplies, and hygiene promotion.</p>
                             </div>
                             <div class="bottom">
                                 <div class="skill">
@@ -236,16 +237,16 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation4.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="donation-details.html">Donate Now</a>
+                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
-                                <a class="tags" href="#">#Funding</a>
+                                <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="donation-details.html">Funding for family</a>
+                                    <a href="{{route('donation.details')}}">Wash Intervention</a>
                                 </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
+                                <p>WASH intervention improves water access, sanitation, and hygiene
+                                    through infrastructure, emergency supplies, and hygiene promotion.</p>
                             </div>
                             <div class="bottom">
                                 <div class="skill">
@@ -266,16 +267,16 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation5.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="donation-details.html">Donate Now</a>
+                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
-                                <a class="tags" href="#">#Relief</a>
+                                <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="donation-details.html">Relief for cyclone-affected</a>
+                                    <a href="{{route('donation.details')}}">Shelter Intervention</a>
                                 </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
+                                <p>Shelter intervention includes distributing NFIs and emergency shelter kits to
+                                    support displaced individuals</p>
                             </div>
                             <div class="bottom">
                                 <div class="skill">
@@ -296,16 +297,16 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation6.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="donation-details.html">Donate Now</a>
+                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
-                                <a class="tags" href="#">#Drought</a>
+                                <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="donation-details.html">Relief for drought-affected</a>
+                                    <a href="{{route('donation.details')}}">Food Security</a>
                                 </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
+                                <p>Food security intervention provides cash transfers, emergency inputs,
+                                     and prioritizes vulnerable groups in drought-affected communities.</p>
                             </div>
                             <div class="bottom">
                                 <div class="skill">
@@ -334,31 +335,28 @@
                     <div class="work-content">
                         <div class="section-title">
                             <span class="sub-title">How we work</span>
-                            <h2>We exist for non-profits, social enterprises, community groups</h2>
+                            <h2>We support non-profits, social enterprises, and community groups</h2>
                         </div>
                         <ul>
                             <li>
-                                <h3><span>01</span>Raise money from different sources</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, pariatur esse
-                                    animi temporibus iusto at dolorum</p>
+                                <h3><span>01</span>Raise funds from diverse sources</h3>
+                                <p>Implementing strategies to secure financial support for our initiatives.</p>
                             </li>
                             <li>
-                                <h3><span>02</span>Giving relief in rural area all over the world</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, pariatur esse
-                                    animi temporibus iusto at dolorum</p>
+                                <h3><span>02</span>Provide relief in rural areas globally</h3>
+                                <p>Delivering aid to rural communities worldwide.</p>
                             </li>
                             <li>
-                                <h3><span>03</span>Gather all the money and giving relief in need</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, pariatur esse
-                                    animi temporibus iusto at dolorum</p>
+                                <h3><span>03</span>Manage and allocate funds for targeted relief efforts</h3>
+                                <p>Distributing funds efficiently to meet urgent relief needs.</p>
                             </li>
                             <li>
-                                <h3><span>04</span>Go to the country that really needs help</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, pariatur esse
-                                    animi temporibus iusto at dolorum</p>
+                                <h3><span>04</span>Respond to countries in critical need of assistance</h3>
+                                <p>Deploying aid resources to countries facing severe challenges.</p>
                             </li>
                         </ul>
                     </div>
+
                 </div>
                 <div class="col-lg-6">
                     <div class="work-img">
@@ -377,41 +375,38 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="benefit-item">
                         <i class="flaticon-house"></i>
-                        <h3>Build home</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi ab quam
-                            magnam earum</p>
+                        <h3>Build Homes</h3>
+                        <p>Providing shelter and building homes for those in need of housing.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="benefit-item two">
                         <i class="flaticon-hospital"></i>
-                        <h3>Medical facilities</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi ab quam
-                            magnam earum</p>
+                        <h3>Medical Facilities</h3>
+                        <p>Ensuring access to medical facilities and healthcare services for communities.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="benefit-item three">
                         <i class="flaticon-fast-food"></i>
-                        <h3>Food & water</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi ab quam
-                            magnam earum</p>
+                        <h3>Food & Water</h3>
+                        <p>Providing nutritious food and clean water to address hunger and improve health.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="benefit-item four">
                         <i class="flaticon-graduation-cap"></i>
-                        <h3>Education facilities</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi ab quam
-                            magnam earum</p>
+                        <h3>Education Facilities</h3>
+                        <p>Supporting education by establishing facilities and promoting learning opportunities.</p>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
 
-    <section class="event-area pt-100 pb-70">
+    {{-- <section class="event-area pt-100 pb-70">
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">Our events</span>
@@ -533,6 +528,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 </div>
