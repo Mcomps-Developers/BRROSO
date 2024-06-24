@@ -340,11 +340,11 @@
                                 <ul>
                                     <li>
                                         <i class="icofont-location-pin"></i>
-                                        <a href="#">6B, Helvetica street, Jordan</a>
+                                        <a href="#">Baidoa-By region Somalia</a>
                                     </li>
                                     <li>
                                         <i class="icofont-ui-call"></i>
-                                        <a href="tel:123456789">+123-456-789</a>
+                                        <a href="tel:123456789">+252614756688</a>
                                     </li>
                                 </ul>
                             </div>
@@ -352,11 +352,12 @@
                                 <ul>
                                     <li>
                                         <i class="icofont-location-pin"></i>
-                                        <a href="#">6A, New street, Spain</a>
+                                        <a href="#">Berdale, Burhakaba, Qansaxdhere, Diinsoor, Xudur, Wajid, Ceelbarde, Marka, Barawe,
+                                            Kismayo, Dhobley, Bardhere and Dollow</a>
                                     </li>
                                     <li>
                                         <i class="icofont-ui-call"></i>
-                                        <a href="tel:548658956">+548-658-956</a>
+                                        <a href="tel:548658956">+252614756688</a>
                                     </li>
                                 </ul>
                             </div>
