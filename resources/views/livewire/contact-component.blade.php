@@ -27,20 +27,26 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="contact-info">
                         <i class="icofont-location-pin"></i>
-                        <span>Location:</span>
-                        <a href="#">6B, Helvetica street, Jordan</a>
-                        <a href="#">6A, North street, Jordan</a>
+                        <span>Main Office:</span>
+                        <a href="#">Baidoa-Bay region Somalia</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="contact-info">
+                        <i class="icofont-location-pin"></i>
+                        <span>Other Offices:</span>
+                        <a href="#">Berdale, Burhakaba, Qansaxdhere, Diinsoor, Xudur, Wajid, Ceelbarde, Marke, Kismayo, Dhobley, Bardhere, Dollow</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="contact-info">
                         <i class="icofont-ui-call"></i>
                         <span>Phone:</span>
-                        <a href="tel:123456789">+123-456-789</a>
-                        <a href="tel:548658956">+548-658-956</a>
+                        <a href="tel:123456789">+252614756688</a>
+                        <a href="tel:548658956">+252615654181</a>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                {{-- <div class="col-sm-6 col-lg-4">
                     <div class="contact-info">
                         <i class="icofont-ui-email"></i>
                         <span>Email:</span>
@@ -53,7 +59,7 @@
                                 class="__cf_email__"
                                 data-cfemail="0b62656d644b6d62656f6425686466">[email&#160;protected]</span></a>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

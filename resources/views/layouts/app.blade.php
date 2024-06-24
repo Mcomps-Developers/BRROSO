@@ -52,6 +52,10 @@
                                 <i class="icofont-ui-call"></i>
                                 <a href="tel:0123456987">+252614756688</a>
                             </li>
+                            {{-- <li>
+                                <i class="icofont-ui-email" ></i>
+                                <a href="mailto:example@example.com" >example@example.com</a>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>
@@ -186,7 +190,7 @@
                             <li class="nav-item">
                                 <a href="{{ route('blog') }}" class="nav-link">Blog</a>
                             </li>
-                            
+
                             <li class="nav-item">
                                 <a href="{{ route('contact') }}" class="nav-link">Contact</a>
                             </li>
