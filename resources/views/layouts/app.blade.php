@@ -275,15 +275,15 @@
                             <h3>Quick links</h3>
                             <ul>
                                 <li>
-                                    <a href="{{ route('about') }}">
+                                    <a href="{{ route('faq') }}">
                                         <i class="icofont-simple-right"></i>
-                                        About
+                                        Faqs
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('blog') }}">
+                                    <a href="{{ route('contact') }}">
                                         <i class="icofont-simple-right"></i>
-                                        Blog
+                                        Contact Us
                                     </a>
                                 </li>
                                 <li>
