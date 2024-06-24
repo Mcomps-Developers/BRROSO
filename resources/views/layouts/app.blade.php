@@ -119,16 +119,16 @@
 
         <div class="mobile-nav">
             <a href="/" class="logo">
-                <img src="{{ asset('assets/img/logo-two.png') }}" alt="Logo">
+                <img src="{{ asset('assets/img/logo.jpg') }}">
             </a>
         </div>
 
         <div class="main-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="45" width="45">
-                        <img src="{{ asset('assets/img/logo-two.png') }}" class="logo-two" alt="Logo">
+                    <a class="navbar-brand" href="/">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="60" width="60">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-two">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
@@ -207,8 +207,8 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="footer-item">
                         <div class="footer-logo">
-                            <a class="logo" href="index.html">
-                                <img src="assets/img/logo-two.png" alt="Logo">
+                            <a class="logo" href="/">
+                                <img src="{{ asset('assets/img/logo.jpg') }}" height="60" width="60">
                             </a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero, magni est placeat
                                 neque, repellat maxime a dolore</p>
