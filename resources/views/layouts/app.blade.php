@@ -127,7 +127,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="index.html">
-                        <img src="{{ asset('assets/img/logo.png') }}" class="logo-one" alt="Logo">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="45" width="45">
                         <img src="{{ asset('assets/img/logo-two.png') }}" class="logo-two" alt="Logo">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -135,7 +135,7 @@
                             <li class="nav-item">
                                 <a href="/" class="nav-link active">Home</a>
                             </li>
-                            
+
                             <li class="nav-item">
                                 <a href="#" class="nav-link dropdown-toggle">Media</a>
                                 <ul class="dropdown-menu">
@@ -164,7 +164,7 @@
                                     <li class="nav-item">
                                         <a href="{{ route('about') }}" class="nav-link">About BRROS</a>
                                     </li>
-                                   
+
                                     <li class="nav-item">
                                         <a href="{{ route('team') }}" class="nav-link">Team</a>
                                     </li>
@@ -179,7 +179,7 @@
                             <li class="nav-item">
                                 <a href="{{ route('causes') }}" class="nav-link">Causes</a>
                             </li>
-                            
+
 
                             <li class="nav-item">
                                 <a href="{{ route('contact') }}" class="nav-link">Contact</a>
@@ -239,40 +239,41 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="footer-item">
-                        <div class="footer-causes">
-                            <h3>Urgent causes</h3>
-                            <div class="cause-inner">
-                                <ul class="align-items-center">
-                                    <li>
-                                        <img src="{{ asset('assets/img/footer-thumb1.jpg') }}" alt="Cause">
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <a href="donation-details.html">Donate for melina the little child</a>
-                                        </h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="cause-inner">
-                                <ul class="align-items-center">
-                                    <li>
-                                        <img src="{{ asset('assets/img/footer-thumb2.jpg') }}" alt="Cause">
-                                    </li>
-                                    <li>
-                                        <h3>
-                                            <a href="{{ route('donation.details') }}">Relief for Australia cyclone
-                                                effected</a>
-                                        </h3>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="footer-links">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li>
+                                    <a href="{{ route('faq') }}">
+                                        <i class="icofont-simple-right"></i>
+                                        Faqs
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('contact') }}">
+                                        <i class="icofont-simple-right"></i>
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('events') }}">
+                                        <i class="icofont-simple-right"></i>
+                                        Events
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('causes') }}">
+                                        <i class="icofont-simple-right"></i>
+                                        Causes
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="footer-item">
                         <div class="footer-links">
-                            <h3>Quick links</h3>
+                            <h3>Useful Links</h3>
                             <ul>
                                 <li>
                                     <a href="{{ route('faq') }}">
@@ -316,19 +317,11 @@
                                         <i class="icofont-ui-call"></i>
                                         <a href="tel:123456789">+252614756688</a>
                                     </li>
-                                </ul>
-                            </div>
-                            <div class="contact-inner">
-                                <ul>
                                     <li>
                                         <i class="icofont-location-pin"></i>
-                                        <a href="#">Berdale, Burhakaba, Qansaxdhere, Diinsoor, Xudur, Wajid,
+                                        <a>Berdale, Burhakaba, Qansaxdhere, Diinsoor, Xudur, Wajid,
                                             Ceelbarde, Marka, Barawe,
                                             Kismayo, Dhobley, Bardhere and Dollow</a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-ui-call"></i>
-                                        <a href="tel:548658956">+252614756688</a>
                                     </li>
                                 </ul>
                             </div>
@@ -337,10 +330,8 @@
                 </div>
             </div>
             <div class="copyright-area">
-                <p>Copyright @
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script> Powered By <a href="https://mcomps.co.ke"><b>Mcomps</b></a>
+                <p>&copy; {{ date('Y') }} {{ config('app.name') }}. All rights reserved. Powered By <a
+                        href="https://mcomps.africa/"><b>Mcomps</b></a>
                 </p>
             </div>
         </div>
