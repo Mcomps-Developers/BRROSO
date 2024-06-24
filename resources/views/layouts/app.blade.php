@@ -41,7 +41,7 @@
     <div class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="left">
                         <ul>
                             <li>
@@ -52,19 +52,16 @@
                                 <i class="icofont-ui-call"></i>
                                 <a href="tel:0123456987">+252614756688</a>
                             </li>
-                            {{-- <li>
-                                <i class="icofont-ui-email" ></i>
-                                <a href="mailto:example@example.com" >example@example.com</a>
-                            </li> --}}
+                            <li>
+                                <i class="icofont-ui-email"></i>
+                                <a href="mailto:info@brroso.org">info@brroso.org</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="right">
                         <ul>
-                            <li>
-                                <span>Follow Us:</span>
-                            </li>
                             <li>
                                 <a href="https://www.facebook.com" target="_blank">
                                     <i class="icofont-facebook"></i>
@@ -119,7 +116,7 @@
 
         <div class="mobile-nav">
             <a href="/" class="logo">
-                <img src="{{ asset('assets/img/logo.jpg') }}">
+                <img src="{{ asset('assets/img/logo.jpg') }}" height="60" width="60">
             </a>
         </div>
 
@@ -128,7 +125,7 @@
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="/">
                         <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="60" width="60">
-                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-two">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-two" height="60" width="60">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">

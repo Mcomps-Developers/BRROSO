@@ -1,37 +1,71 @@
 <div>
-    <div class="banner-area">
-        <div class="d-table">
-            <div class="d-table-cell">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="banner-content">
-                                <span>Let’s contribute to make world a better place</span>
-                                <h1>Fundraising for helpless and causes you care about</h1>
-                                <p>It is a long established fact that a reader will be page distracted by the readable
-                                    content of a pain</p>
-                                <div class="banner-btn-area">
-                                    <a class="common-btn banner-btn" href="#">Get Start A Fundraising</a>
-                                    <a class="common-btn" href="#">Donate Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="banner-img">
-                                <img src="{{ asset('assets/img/banner/banner-main1.jpg') }}" alt="Banner">
-                                <img src="{{ asset('assets/img/banner/banner-main2.png') }}" alt="Banner">
-                                <div class="video-wrap">
-                                    <button class="js-modal-btn" data-video-id="uemObN8_dcw">
-                                        <i class="icofont-ui-play"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+    <div class="banner-area-two three">
+        <div class="banner-slider owl-theme owl-carousel">
+          <div class="banner-slider-item banner-img-four">
+            <div class="d-table">
+              <div class="d-table-cell">
+                <div class="container">
+                  <div class="banner-content">
+                    <h1>We help all of the people in need around the world</h1>
+                    <p>
+                      It is a long established fact that a reader will be page
+                      distracted by the readable content of a pain
+                    </p>
+                    <div class="banner-btn-area">
+                      <a class="common-btn banner-btn" href="#"
+                        >Get Start A Fundraising</a
+                      >
+                      <a class="common-btn" href="#">Donate Now</a>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="banner-slider-item banner-img-five">
+            <div class="d-table">
+              <div class="d-table-cell">
+                <div class="container">
+                  <div class="banner-content">
+                    <h1>Become a volunteer in our community to help people</h1>
+                    <p>
+                      It is a long established fact that a reader will be page
+                      distracted by the readable content of a pain
+                    </p>
+                    <div class="banner-btn-area">
+                      <a class="common-btn banner-btn" href="#"
+                        >Get Start A Fundraising</a
+                      >
+                      <a class="common-btn" href="#">Donate Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-slider-item banner-img-six">
+            <div class="d-table">
+              <div class="d-table-cell">
+                <div class="container">
+                  <div class="banner-content">
+                    <h1>We are donating all over the world by our volunteer</h1>
+                    <p>
+                      It is a long established fact that a reader will be page
+                      distracted by the readable content of a pain
+                    </p>
+                    <div class="banner-btn-area">
+                      <a class="common-btn banner-btn" href="#"
+                        >Get Start A Fundraising</a
+                      >
+                      <a class="common-btn" href="#">Donate Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
 
 
@@ -49,18 +83,22 @@
                     <div class="about-content">
                         <div class="section-title">
                             <span class="sub-title">About us</span>
-                            <h2>We're for social causes</h2>
+                            <h2>Who We Are</h2>
                         </div>
-                        <span class="about-span">We exist for non-profits, social enterprises, community groups,
-                            activists,lorem politicians and individual citizens that are making.</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima atque obcaecati
-                            deleniti tempora, cumque molestiae consectetur provident temporibus natus iste accusamus
-                            totam voluptas quas suscipit blanditiis fuga quibusdam porro.</p>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.</p>
+                        <span class="about-span">
+                            Bilan Relief and Recovery Organization (BRRO) is a non-profit, non-governmental organization
+                            dedicated to providing essential relief and recovery services to vulnerable communities in
+                            Somalia.
+                            Established in the year 2017, BRRO has been actively involved in humanitarian efforts,
+                            responding to
+                            the pressing needs of the most affected populations in the region. Our organization is
+                            driven by the
+                            mission to alleviate suffering, restore hope, and build resilience in the face of complex
+                            emergencies and
+                            natural disasters.</span>
                         <div class="about-btn-area">
-                            <a class="common-btn about-btn" href="#">Get Start A Fundraising</a>
-                            <a class="common-btn" href="#">Read More</a>
+                            {{-- <a class="common-btn about-btn" href="#">Get Start A Fundraising</a> --}}
+                            <a class="common-btn" href="{{ route('about') }}">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -76,33 +114,36 @@
                     <div class="feature-item">
                         <i class="flaticon-solidarity"></i>
                         <h3>
-                            <a href="#">Be a volunteer</a>
+                            <a href="#!">Vision</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply rom text. Contrary to popular belief is
-                            not simply.</p>
-                        <a class="feature-btn" href="#">Join Now</a>
+                        <p>BRRO envisions a Somalia where vulnerable communities have access to vital relief and
+                            recovery
+                            services, enabling them to rebuild their lives and secure a sustainable future</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="feature-item two">
                         <i class="flaticon-donation"></i>
                         <h3>
-                            <a href="#">Donate now</a>
+                            <a href="#!">Mission</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply rom text. Contrary to popular belief is
-                            not simply.</p>
-                        <a class="feature-btn" href="#">Join Now</a>
+                        <p>Our mission is to provide immediate and long-term relief and recovery assistance to
+                            vulnerable
+                            communities in Somalia, ensuring their safety, well-being, and empowerment. We strive to
+                            create
+                            lasting impact through our programs that address the root causes of humanitarian crises,
+                            while
+                            promoting resilience, self-reliance, and community participation.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="feature-item three">
                         <i class="flaticon-love"></i>
                         <h3>
-                            <a href="#">Show your love</a>
+                            <a href="#">Core Values</a>
                         </h3>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply rom text. Contrary to popular belief is
                             not simply.</p>
-                        <a class="feature-btn" href="#">Join Now</a>
                     </div>
                 </div>
             </div>
