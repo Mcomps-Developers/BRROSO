@@ -159,7 +159,7 @@
                                 <a href="#" class="nav-link dropdown-toggle">About</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ route('about') }}" class="nav-link">About BRROS</a>
+                                        <a href="{{ route('about') }}" class="nav-link">About BRROSO</a>
                                     </li>
 
                                     <li class="nav-item">

@@ -33,15 +33,18 @@
                     <div class="about-content">
                         <div class="section-title">
                             <span class="sub-title">About us</span>
-                            <h2>We're for social causes</h2>
+                            <h2>Who We Are</h2>
                         </div>
-                        <span class="about-span">We exist for non-profits, social enterprises, community groups,
-                            activists,lorem politicians and individual citizens that are making.</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minima atque obcaecati
-                            deleniti tempora, cumque molestiae consectetur provident temporibus natus iste accusamus
-                            totam voluptas quas suscipit blanditiis fuga quibusdam porro.</p>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.</p>
+                        <span class="about-span">Bilan Relief and Recovery Organization (BRRO) is a non-profit, non-governmental organization
+                            dedicated to providing essential relief and recovery services to vulnerable communities in
+                            Somalia.
+                            Established in the year 2017, BRRO has been actively involved in humanitarian efforts,
+                            responding to
+                            the pressing needs of the most affected populations in the region. Our organization is
+                            driven by the
+                            mission to alleviate suffering, restore hope, and build resilience in the face of complex
+                            emergencies and
+                            natural disasters.</p>
                     </div>
                 </div>
             </div>
@@ -146,40 +149,39 @@
                     <div class="section-title">
                         <span class="sub-title">Core features</span>
                         <h2>Mission to make a smile</h2>
-                        <p>We exist for non-profits, social enterprises, community groups, activists,lorem politicians
-                            and individual citizens that are making.</p>
+                        <p>We exist to make a positive impact in communities, focusing on the following core areas:</p>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="benefit-item">
                                 <i class="flaticon-house"></i>
-                                <h3>Build home</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi
-                                </p>
+                                <h3>Building Homes</h3>
+                                <p>BRRO constructs safe and durable homes for vulnerable families, providing them with stable
+                                    living conditions.</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="benefit-item two">
                                 <i class="flaticon-hospital"></i>
-                                <h3>Medical facilities</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi
-                                </p>
+                                <h3>Medical Facilities</h3>
+                                <p>We establish medical facilities and provide essential healthcare services to improve
+                                    health outcomes in underserved communities.</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="benefit-item three">
                                 <i class="flaticon-fast-food"></i>
-                                <h3>Food & water</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi
-                                </p>
+                                <h3>Food & Water Security</h3>
+                                <p>BRRO ensures access to nutritious food and clean water for communities affected by
+                                    poverty and disasters.</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="benefit-item four">
                                 <i class="flaticon-graduation-cap"></i>
-                                <h3>Education facilities</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique illum excepturi
-                                </p>
+                                <h3>Education Facilities</h3>
+                                <p>We support educational initiatives by building schools and providing resources to
+                                    enhance learning opportunities for children and youth.</p>
                             </div>
                         </div>
                     </div>
@@ -187,47 +189,27 @@
             </div>
         </div>
     </div>
+    
 
 
     <section class="team-area four pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">Volunteer</span>
-                <h2>Meet our excellent</h2>
-                <p>We exist for non-profits, social enterprises, community groups, activists,lorem politicians and
-                    individual citizens that are making.</p>
+                <span class="sub-title">Directors</span>
+                <h2>Board Of Directors</h2>
+                <p>The Board of Directors is responsible for providing overall strategic direction and governance for
+                    Bilan Relief and Recovery Organization (BRRO) </p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-sm-6 col-lg-4">
                     <div class="team-item">
                         <div class="top">
                             <img src="{{ ('assets/img/team/team1.jpg') }}" alt="Team">
-                            <ul>
-                                <li>
-                                    <a href="https//www.facebook.com/index.html" target="_blank">
-                                        <i class="icofont-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.twitter.com/index.html" target="_blank">
-                                        <i class="icofont-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.youtube.com/index.html" target="_blank">
-                                        <i class="icofont-youtube-play"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.instagram.com/index.html" target="_blank">
-                                        <i class="icofont-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </div>
                         <div class="bottom">
-                            <h3>Jenas handar</h3>
-                            <span>CEO & Founder</span>
+                            <h3>Example Name</h3>
+                            <span>Director</span>
                         </div>
                     </div>
                 </div>
@@ -235,32 +217,11 @@
                     <div class="team-item">
                         <div class="top">
                             <img src="{{ ('assets/img/team/team2.jpg') }}" alt="Team">
-                            <ul>
-                                <li>
-                                    <a href="https//www.facebook.com/index.html" target="_blank">
-                                        <i class="icofont-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.twitter.com/index.html" target="_blank">
-                                        <i class="icofont-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.youtube.com/index.html" target="_blank">
-                                        <i class="icofont-youtube-play"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.instagram.com/index.html" target="_blank">
-                                        <i class="icofont-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </div>
                         <div class="bottom">
-                            <h3>Smithy alisha</h3>
-                            <span>Manager</span>
+                            <h3>Example Name</h3>
+                            <span>Director</span>
                         </div>
                     </div>
                 </div>
@@ -268,32 +229,11 @@
                     <div class="team-item">
                         <div class="top">
                             <img src="{{ ('assets/img/team/team3.jpg') }}" alt="Team">
-                            <ul>
-                                <li>
-                                    <a href="https//www.facebook.com/index.html" target="_blank">
-                                        <i class="icofont-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.twitter.com/index.html" target="_blank">
-                                        <i class="icofont-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.youtube.com/index.html" target="_blank">
-                                        <i class="icofont-youtube-play"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https//www.instagram.com/index.html" target="_blank">
-                                        <i class="icofont-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </div>
                         <div class="bottom">
-                            <h3>Johan mendal</h3>
-                            <span>Volunteer</span>
+                            <h3>Example Name</h3>
+                            <span>Director</span>
                         </div>
                     </div>
                 </div>

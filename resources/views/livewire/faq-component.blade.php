@@ -37,9 +37,9 @@
                                 <i class="icofont-plus"></i>
                                 <i class="icofont-minus two"></i>
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaquis nostrud ullamco
-                                nisi ut aliquip</p>
+                            <p>If you're interested in supporting charitable causes, there are several ways you can contribute. You
+                                can donate funds directly to organizations, volunteer your time and skills, or participate in
+                                fundraising events. Each contribution makes a significant impact on the lives of those in need.</p>
                         </li>
                         <li>
                             <a>
@@ -47,9 +47,9 @@
                                 <i class="icofont-plus"></i>
                                 <i class="icofont-minus two"></i>
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaquis nostrud ullamco
-                                nisi ut aliquip</p>
+                            <p>If you're passionate about our mission and want to be part of our team, we welcome your interest! You
+                                can explore current job openings on our website and apply directly online. We value diversity,
+                                dedication, and teamwork in achieving our goals.</p>
                         </li>
                         <li>
                             <a>
@@ -57,9 +57,9 @@
                                 <i class="icofont-plus"></i>
                                 <i class="icofont-minus two"></i>
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaquis nostrud ullamco
-                                nisi ut aliquip</p>
+                            <p>Becoming a volunteer is a rewarding way to make a difference in your community. You can start by
+                                contacting us directly through our volunteer portal or by attending one of our volunteer orientation
+                                sessions. We offer various opportunities that match your skills and interests.</p>
                         </li>
                         <li>
                             <a>
@@ -67,12 +67,14 @@
                                 <i class="icofont-plus"></i>
                                 <i class="icofont-minus two"></i>
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaquis nostrud ullamco
-                                nisi ut aliquip</p>
+                            <p>If you're unsure where to begin, consider starting locally by reaching out to community organizations
+                                or charities. They often have specific needs and projects where your assistance can have an immediate
+                                impact. Additionally, you can educate yourself on social issues and advocate for positive change in
+                                your circles.</p>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </div>
