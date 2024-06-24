@@ -1,45 +1,403 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+<html lang="zxx">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+<head>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BRROSO</title>
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/icofont.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/modal-video.min.css') }}">
+    <link rel="stylesheet" href="assets/fonts/flaticon.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/lightbox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/odometer.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/theme-dark.css') }}">
 
-        <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
 
-        <!-- Styles -->
-        @livewireStyles
-    </head>
-    <body class="font-sans antialiased">
-        <x-banner />
+<body>
 
-        <div class="min-h-screen bg-gray-100">
-            @livewire('navigation-menu')
+    <div class="loader">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="pre-box-one">
+                    <div class="pre-box-two"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <!-- Page Heading -->
-            @if (isset($header))
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
+
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <i class="icofont-location-pin"></i>
+                                <a href="#">Baidoa-Bay region Somalia</a>
+                            </li>
+                            <li>
+                                <i class="icofont-ui-call"></i>
+                                <a href="tel:0123456987">+252614756688</a>
+                            </li>
+                        </ul>
                     </div>
-                </header>
-            @endif
+                </div>
+                <div class="col-lg-8">
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <span>Follow Us:</span>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="icofont-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com" target="_blank">
+                                    <i class="icofont-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com" target="_blank">
+                                    <i class="icofont-youtube-play"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="icofont-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="language">
+                            <select>
+                                <option>English</option>
+                                <option>العربيّة</option>
+                                <option>Deutsch</option>
+                                <option>Português</option>
+                            </select>
+                        </div>
+                        <div class="header-search">
+                            <i id="search-btn" class="icofont-search-2"></i>
+                            <div id="search-overlay" class="block">
+                                <div class="centered">
+                                    <div id="search-box">
+                                        <i id="close-btn" class="icofont-close"></i>
+                                        <form>
+                                            <input type="text" class="form-control" placeholder="Search..." />
+                                            <button type="submit" class="btn">Search</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
+
+    <div class="navbar-area sticky-top">
+
+        <div class="mobile-nav">
+            <a href="index.html" class="logo">
+                <img src="{{ asset('assets/img/logo-two.png') }}" alt="Logo">
+            </a>
         </div>
 
-        @stack('modals')
+        <div class="main-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="{{ asset('assets/img/logo.png') }}" class="logo-one" alt="Logo">
+                        <img src="{{ asset('assets/img/logo-two.png') }}" class="logo-two" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link active">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">Pages <i
+                                        class="icofont-simple-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">Users <i
+                                                class="icofont-simple-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a href="{{ route('login') }}" class="nav-link">Sign In</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="{{ route('register') }}" class="nav-link">Sign Up</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('galary') }}" class="nav-link">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('testimonials') }}" class="nav-link">Testimonials</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('team') }}" class="nav-link">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('faq') }}" class="nav-link">FAQ</a>
+                                    </li>
+                                    {{-- <li class="nav-item">
+                                        <a href="404.html" class="nav-link">404 Error Page</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                                    </li> --}}
+                                    <li class="nav-item">
+                                        <a href="{{ route('privacy.policy') }}" class="nav-link">Privacy Policy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('terms.and.conditions') }}" class="nav-link">Terms & Conditions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('about') }}" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">Donations <i
+                                        class="icofont-simple-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="{{ route('donations') }}" class="nav-link">Donations</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('donation.details') }}" class="nav-link">Donation Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">Events <i
+                                        class="icofont-simple-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="{{ route('events') }}" class="nav-link">Events</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('event.details') }}" class="nav-link">Event Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">Blog <i
+                                        class="icofont-simple-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="{{ route('blog') }}" class="nav-link">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('blog.details') }}" class="nav-link">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('contact') }}" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="side-nav">
+                            <a class="donate-btn" href="#">
+                                Donate
+                                <i class="icofont-heart-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
 
-        @livewireScripts
-    </body>
+
+    {{ $slot }}
+
+
+    <footer class="footer-area pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <a class="logo" href="index.html">
+                                <img src="assets/img/logo-two.png" alt="Logo">
+                            </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero, magni est placeat
+                                neque, repellat maxime a dolore</p>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank">
+                                        <i class="icofont-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.twitter.com" target="_blank">
+                                        <i class="icofont-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com" target="_blank">
+                                        <i class="icofont-youtube-play"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com" target="_blank">
+                                        <i class="icofont-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <div class="footer-causes">
+                            <h3>Urgent causes</h3>
+                            <div class="cause-inner">
+                                <ul class="align-items-center">
+                                    <li>
+                                        <img src="{{ asset('assets/img/footer-thumb1.jpg') }}" alt="Cause">
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="donation-details.html">Donate for melina the little child</a>
+                                        </h3>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cause-inner">
+                                <ul class="align-items-center">
+                                    <li>
+                                        <img src="{{ asset('assets/img/footer-thumb2.jpg') }}" alt="Cause">
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="{{ route('donation.details') }}">Relief for Australia cyclone effected</a>
+                                        </h3>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <div class="footer-links">
+                            <h3>Quick links</h3>
+                            <ul>
+                                <li>
+                                    <a href="{{ route('about') }}">
+                                        <i class="icofont-simple-right"></i>
+                                        About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('blog') }}">
+                                        <i class="icofont-simple-right"></i>
+                                        Blog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{route('events')}}">
+                                        <i class="icofont-simple-right"></i>
+                                        Events
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('donations') }}">
+                                        <i class="icofont-simple-right"></i>
+                                        Donation
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-item">
+                        <div class="footer-contact">
+                            <h3>Contact info</h3>
+                            <div class="contact-inner">
+                                <ul>
+                                    <li>
+                                        <i class="icofont-location-pin"></i>
+                                        <a href="#">Baidoa-By region Somalia</a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont-ui-call"></i>
+                                        <a href="tel:123456789">+252614756688</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contact-inner">
+                                <ul>
+                                    <li>
+                                        <i class="icofont-location-pin"></i>
+                                        <a href="#">Berdale, Burhakaba, Qansaxdhere, Diinsoor, Xudur, Wajid, Ceelbarde, Marka, Barawe,
+                                            Kismayo, Dhobley, Bardhere and Dollow</a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont-ui-call"></i>
+                                        <a href="tel:548658956">+252614756688</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <p>Copyright @
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> Powered By <a href="https://mcomps.co.ke"><b>Mcomps</b></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="go-top">
+        <i class="icofont-arrow-up"></i>
+        <i class="icofont-arrow-up"></i>
+    </div>
+
+
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/form-validator.min.js') }}"></script>
+    <script src="{{ asset('assets/js/contact-form-script.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.meanmenu.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-modal-video.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/lightbox.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/odometer.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.appear.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
+</body>
+
+
+
 </html>
