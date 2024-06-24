@@ -3,8 +3,9 @@
 use App\Livewire\AboutComponent;
 use App\Livewire\BlogComponent;
 use App\Livewire\BlogDetailsComponent;
+use App\Livewire\CausesComponent;
 use App\Livewire\ContactComponent;
-use App\Livewire\DonationsComponent;
+
 use App\Livewire\DonationsDetailsComponent;
 use App\Livewire\EventDetailsComponent;
 use App\Livewire\EventsComponent;
@@ -24,7 +25,7 @@ Route::get('/about',AboutComponent::class)->name('about');
 Route::get('/blog',BlogComponent::class)->name('blog');
 Route::get('/blog-details',BlogDetailsComponent::class)->name('blog.details');
 Route::get('/contact',ContactComponent::class)->name('contact');
-Route::get('/donations',DonationsComponent::class)->name('donations');
+
 Route::get('/donation-details',DonationsDetailsComponent::class)->name('donation.details');
 Route::get('/events',EventsComponent::class)->name('events');
 Route::get('/event-details',EventDetailsComponent::class)->name('event.details');
@@ -36,3 +37,4 @@ Route::get('terms',TermsComponent::class)->name('terms.and.conditions');
 Route::get('/testimonials',TestimonialsComponent::class)->name('testimonials');
 Route::get('/register',RegisterComponent::class)->name('register');
 Route::get('/login',LoginComponent::class)->name('login');
+Route::get('/causes',CausesComponent::class)->name('causes');

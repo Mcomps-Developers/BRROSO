@@ -114,7 +114,7 @@
     <div class="navbar-area sticky-top">
 
         <div class="mobile-nav">
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
                 <img src="{{ asset('assets/img/logo-two.png') }}" alt="Logo">
             </a>
         </div>
@@ -169,7 +169,8 @@
                                         <a href="{{ route('privacy.policy') }}" class="nav-link">Privacy Policy</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ route('terms.and.conditions') }}" class="nav-link">Terms & Conditions</a>
+                                        <a href="{{ route('terms.and.conditions') }}" class="nav-link">Terms &
+                                            Conditions</a>
                                     </li>
                                 </ul>
                             </li>
@@ -177,41 +178,15 @@
                                 <a href="{{ route('about') }}" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Donations <i
-                                        class="icofont-simple-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="{{ route('donations') }}" class="nav-link">Donations</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="{{ route('donation.details') }}" class="nav-link">Donation Details</a>
-                                    </li>
-                                </ul>
+                                <a href="{{ route('causes') }}" class="nav-link">Causes</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Events <i
-                                        class="icofont-simple-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="{{ route('events') }}" class="nav-link">Events</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="{{ route('event.details') }}" class="nav-link">Event Details</a>
-                                    </li>
-                                </ul>
+                                <a href="{{ route('events') }}" class="nav-link">Events</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Blog <i
-                                        class="icofont-simple-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="{{ route('blog') }}" class="nav-link">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="{{ route('blog.details') }}" class="nav-link">Blog Details</a>
-                                    </li>
-                                </ul>
+                                <a href="{{ route('blog') }}" class="nav-link">Blog</a>
                             </li>
+                            
                             <li class="nav-item">
                                 <a href="{{ route('contact') }}" class="nav-link">Contact</a>
                             </li>
@@ -291,7 +266,8 @@
                                     </li>
                                     <li>
                                         <h3>
-                                            <a href="{{ route('donation.details') }}">Relief for Australia cyclone effected</a>
+                                            <a href="{{ route('donation.details') }}">Relief for Australia cyclone
+                                                effected</a>
                                         </h3>
                                     </li>
                                 </ul>
@@ -317,15 +293,15 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{route('events')}}">
+                                    <a href="{{ route('events') }}">
                                         <i class="icofont-simple-right"></i>
                                         Events
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('donations') }}">
+                                    <a href="{{ route('causes') }}">
                                         <i class="icofont-simple-right"></i>
-                                        Donation
+                                        Causes
                                     </a>
                                 </li>
                             </ul>
@@ -352,7 +328,8 @@
                                 <ul>
                                     <li>
                                         <i class="icofont-location-pin"></i>
-                                        <a href="#">Berdale, Burhakaba, Qansaxdhere, Diinsoor, Xudur, Wajid, Ceelbarde, Marka, Barawe,
+                                        <a href="#">Berdale, Burhakaba, Qansaxdhere, Diinsoor, Xudur, Wajid,
+                                            Ceelbarde, Marka, Barawe,
                                             Kismayo, Dhobley, Bardhere and Dollow</a>
                                     </li>
                                     <li>

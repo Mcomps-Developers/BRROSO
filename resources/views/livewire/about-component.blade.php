@@ -61,7 +61,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="dream-item">
                         <h3>
-                            <a href="{{ route('donations') }}">Over 20M+ people around the world is having good life because of
+                            <a href="{{ route('causes') }}">Over 20M+ people around the world is having good life because of
                                 Findo</a>
                         </h3>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots.</p>
