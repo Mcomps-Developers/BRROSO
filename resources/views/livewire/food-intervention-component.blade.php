@@ -28,25 +28,25 @@
                     <div class="details-item">
                         <div class="details-img">
 
-                            <h2>1. Provision of Unconditional Cash Transfers (UCT)</h2>
+                            <h6>1. Provision of Unconditional Cash Transfers (UCT)</h2>
                             <p>Providing regular cash transfers to severely food-insecure newly displaced IDPs in
                                 collective sites to ensure their access to food. The transfers are provided for a
                                 minimum of 12 rounds/months. </p>
-                            <h2>2. Provision of lifesaving and life-sustaining UCT: </h2>
+                            <h6>2. Provision of lifesaving and life-sustaining UCT: </h2>
                             <p>Providing cash transfers along with emergency livelihood inputs (cash+ approach) to 
                                 enable vulnerable households to access food and engage in productive activities. This 
                                 approach helps secure a harvest, sustain animal health, and prevent further depletion of 
                                 livelihood assets.  </p>
-                            <h2>3.Emergency livelihoods inputs:</h2>
+                            <h6>3. Emergency livelihoods inputs:</h6>
                             <p>Supporting vulnerable farmers, pastoralists, agro-pastoralists, and rural IDPs affected 
                                 by drought with emergency inputs such as water and feed/fodder for livestock.</p>
-                            <h2>4.Priority beneficiaries:</h2>
+                            <h6>4. Priority beneficiaries:</h6>
                             <p>Giving priority to vulnerable households with severely acute malnourished 
                                 (SAM)/moderately acute malnourished (MAM) under-five children or pregnant and 
                                 lactating women based on nutrition programs. Additionally, minority and 
                                 marginalized groups, persons living with disabilities, and female-headed households 
                                 are also prioritized</p>
-                                <h2>Consideration for drought-affected communities:</h2>
+                                <h6>5. Consideration for drought-affected communities:</h6>
                             <p>Addressing the food and water crisis faced by minority and marginalized groups and 
                                 vulnerable rural communities affected by drought, aiming to prevent further "droughtinduced displacement</p>
 
