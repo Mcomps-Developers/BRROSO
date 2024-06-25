@@ -24,7 +24,7 @@
     <section class="donations-area pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">Causes to care</span>
+                <span class="sub-title">What We Care About</span>
                 <h2>CAMP COORDINATION AND CAMP MANAGEMENT (CCCM) INTERVENTION:</h2>
                 <p>The Camp Coordination and Camp Management (CCCM) intervention focuses on effective
                     coordination and management of camps to provide assistance and protection to internally displaced
