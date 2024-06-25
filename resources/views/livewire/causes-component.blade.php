@@ -1,4 +1,4 @@
-{{-- <div>
+<div>
 
     <div class="page-title-area title-bg-two">
         <div class="d-table">
@@ -21,235 +21,21 @@
     </div>
 
 
-    <section class="donations-area ptb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="donation-item">
-                        <div class="img">
-                            <img src="{{ asset('assets/img/donation/donation1.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{ route('donation.details') }}">Donate Now</a>
-                        </div>
-                        <div class="inner">
-                            <div class="top">
-                                <a class="tags" href="#">#Medical</a>
-                                <h3>
-                                    <a href="{{ route('donation.details') }}">Need help for treatment</a>
-                                </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="skill">
-                                    <div class="skill-bar skill1 wow fadeInLeftBig">
-                                        <span class="skill-count1">85%</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>Raised: $5,500.00</li>
-                                    <li>Goal: $7,000.00</li>
-                                </ul>
-                                <h4>Donated by <span>60 people</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="donation-item">
-                        <div class="img">
-                            <img src="{{ asset('assets/img/donation/donation2.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{ route('donation.details') }}">Donate Now</a>
-                        </div>
-                        <div class="inner">
-                            <div class="top">
-                                <a class="tags" href="#">#Education</a>
-                                <h3>
-                                    <a href="{{ route('donation.details') }}">Education for poor children</a>
-                                </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="skill">
-                                    <div class="skill-bar skill2 wow fadeInLeftBig">
-                                        <span class="skill-count2">95%</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>Raised: $6,500.00</li>
-                                    <li>Goal: $8,050.00</li>
-                                </ul>
-                                <h4>Donated by <span>50 people</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="donation-item">
-                        <div class="img">
-                            <img src="{{ asset('assets/img/donation/donation3.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{ route('donation.details') }}">Donate Now</a>
-                        </div>
-                        <div class="inner">
-                            <div class="top">
-                                <a class="tags" href="#">#Family</a>
-                                <h3>
-                                    <a href="{{ route('donation.details') }}">Financial help for poor</a>
-                                </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="skill">
-                                    <div class="skill-bar skill3 wow fadeInLeftBig">
-                                        <span class="skill-count3">90%</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>Raised: $5,540.00</li>
-                                    <li>Goal: $6,055.00</li>
-                                </ul>
-                                <h4>Donated by <span>40 people</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="donation-item">
-                        <div class="img">
-                            <img src="{{ asset('assets/img/donation/donation4.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{ route('donation.details') }}">Donate Now</a>
-                        </div>
-                        <div class="inner">
-                            <div class="top">
-                                <a class="tags" href="#">#Funding</a>
-                                <h3>
-                                    <a href="{{ route('donation.details') }}">Funding for family</a>
-                                </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="skill">
-                                    <div class="skill-bar skill4 wow fadeInLeftBig">
-                                        <span class="skill-count4">80%</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>Raised: $5,56.00</li>
-                                    <li>Goal: $6,85.00</li>
-                                </ul>
-                                <h4>Donated by <span>30 people</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="donation-item">
-                        <div class="img">
-                            <img src="{{ asset('assets/img/donation/donation5.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{ route('donation.details') }}">Donate Now</a>
-                        </div>
-                        <div class="inner">
-                            <div class="top">
-                                <a class="tags" href="#">#Relief</a>
-                                <h3>
-                                    <a href="{{ route('donation.details') }}">Relief for cyclone-affected</a>
-                                </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="skill">
-                                    <div class="skill-bar skill5 wow fadeInLeftBig">
-                                        <span class="skill-count5">75%</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>Raised: $5,5.00</li>
-                                    <li>Goal: $3,85.00</li>
-                                </ul>
-                                <h4>Donated by <span>20 people</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="donation-item">
-                        <div class="img">
-                            <img src="{{ asset('assets/img/donation/donation6.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{ route('donation.details') }}">Donate Now</a>
-                        </div>
-                        <div class="inner">
-                            <div class="top">
-                                <a class="tags" href="#">#Drought</a>
-                                <h3>
-                                    <a href="{{ route('donation.details') }}">Relief for drought-affected</a>
-                                </h3>
-                                <p>We exist for non-profits, social enterprises, activists. Lorem politicians and
-                                    individual citizens.</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="skill">
-                                    <div class="skill-bar skill6 wow fadeInLeftBig">
-                                        <span class="skill-count6">70%</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>Raised: $9,5.00</li>
-                                    <li>Goal: $3,84.00</li>
-                                </ul>
-                                <h4>Donated by <span>10 people</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pagination-area">
-                <ul>
-                    <li>
-                        <a href="#">Prev</a>
-                    </li>
-                    <li>
-                        <a class="active" href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">Next</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-</div> --}}
-
-<div class="div">
-    {{-- <div class="section-title">
-        <span class="sub-title">Causes to care</span>
-        
-    </div> --}}
-
     <div class="row">
         <div class="col-sm-6 col-lg-4">
             <div class="donation-item">
                 <div class="img">
                     <img src="{{ asset('assets/img/donation/donation1.jpg') }}" alt="Donation">
-                    <a class="common-btn" href="{{ route('health') }}">Donate Now</a>
+                    <a class="common-btn" href="{{route('health')}}">Donate Now</a>
                 </div>
                 <div class="inner">
                     <div class="top">
                         <a class="tags" href="#"></a>
                         <h3>
-                            <a href="{{ route('health') }}">Health Intervation</a>
+                            <a href="{{route('health')}}">Health Intervation</a>
                         </h3>
                         <p>Health intervention provides primary healthcare, medicines, reproductive health services,
-                            trauma care, and community education efforts.</p>
+                             trauma care, and community education efforts.</p>
                     </div>
                     <div class="bottom">
                         <div class="skill">
@@ -270,16 +56,16 @@
             <div class="donation-item">
                 <div class="img">
                     <img src="{{ asset('assets/img/donation/donation2.jpg') }}" alt="Donation">
-                    <a class="common-btn" href="{{ route('nutrition') }}">Donate Now</a>
+                    <a class="common-btn" href="{{route('nutrition')}}">Donate Now</a>
                 </div>
                 <div class="inner">
                     <div class="top">
                         <a class="tags" href="#"></a>
                         <h3>
-                            <a href="{{ route('nutrition') }}">Nutrition Intervention</a>
+                            <a href="{{route('nutrition')}}">Nutrition Intervention</a>
                         </h3>
                         <p>Nutrition intervention targets malnutrition with screenings, care services,
-                            feeding programs, and CHW education efforts.</p>
+                             feeding programs, and CHW education efforts.</p>
                     </div>
                     <div class="bottom">
                         <div class="skill">
@@ -300,13 +86,13 @@
             <div class="donation-item">
                 <div class="img">
                     <img src="{{ asset('assets/img/donation/donation3.jpg') }}" alt="Donation">
-                    <a class="common-btn" href="{{ route('protection') }}">Donate Now</a>
+                    <a class="common-btn" href="{{route('protection')}}">Donate Now</a>
                 </div>
                 <div class="inner">
                     <div class="top">
                         <a class="tags" href="#"></a>
                         <h3>
-                            <a href="{{ route('protection') }}">Protection Intervention</a>
+                            <a href="{{route('protection')}}">Protection Intervention</a>
                         </h3>
                         <p>WASH intervention improves water access, sanitation, and hygiene through
                             infrastructure, emergency supplies, and hygiene promotion.</p>
@@ -330,13 +116,13 @@
             <div class="donation-item">
                 <div class="img">
                     <img src="{{ asset('assets/img/donation/donation4.jpg') }}" alt="Donation">
-                    <a class="common-btn" href="{{ route('food') }}">Donate Now</a>
+                    <a class="common-btn" href="{{route('food')}}">Donate Now</a>
                 </div>
                 <div class="inner">
                     <div class="top">
                         <a class="tags" href="#"></a>
                         <h3>
-                            <a href="{{ route('wash') }}">Wash Intervention</a>
+                            <a href="{{route('wash')}}">Wash Intervention</a>
                         </h3>
                         <p>WASH intervention improves water access, sanitation, and hygiene
                             through infrastructure, emergency supplies, and hygiene promotion.</p>
@@ -360,13 +146,13 @@
             <div class="donation-item">
                 <div class="img">
                     <img src="{{ asset('assets/img/donation/donation5.jpg') }}" alt="Donation">
-                    <a class="common-btn" href="{{ route('food') }}">Donate Now</a>
+                    <a class="common-btn" href="{{route('food')}}">Donate Now</a>
                 </div>
                 <div class="inner">
                     <div class="top">
                         <a class="tags" href="#"></a>
                         <h3>
-                            <a href="{{ route('shelter') }}">Shelter Intervention</a>
+                            <a href="{{route('shelter')}}">Shelter Intervention</a>
                         </h3>
                         <p>Shelter intervention includes distributing NFIs and emergency shelter kits to
                             support displaced individuals</p>
@@ -390,16 +176,16 @@
             <div class="donation-item">
                 <div class="img">
                     <img src="{{ asset('assets/img/donation/donation6.jpg') }}" alt="Donation">
-                    <a class="common-btn" href="{{ route('food') }}">Donate Now</a>
+                    <a class="common-btn" href="{{route('food')}}">Donate Now</a>
                 </div>
                 <div class="inner">
                     <div class="top">
                         <a class="tags" href="#"></a>
                         <h3>
-                            <a href="{{ route('food') }}">Food Security</a>
+                            <a href="{{route('food')}}">Food Security</a>
                         </h3>
                         <p>Food security intervention provides cash transfers, emergency inputs,
-                            and prioritizes vulnerable groups in drought-affected communities.</p>
+                             and prioritizes vulnerable groups in drought-affected communities.</p>
                     </div>
                     <div class="bottom">
                         <div class="skill">
@@ -417,4 +203,5 @@
             </div>
         </div>
     </div>
+
 </div>
