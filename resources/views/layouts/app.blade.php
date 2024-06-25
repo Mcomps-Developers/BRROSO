@@ -54,7 +54,7 @@
                             </li>
                             <li>
                                 <i class="icofont-ui-email"></i>
-                                <a href="bilan.brro@gmail.com">bilan.brro@gmail.com</a>
+                                <a href="bilan.brro@gmail.com">info@brroso.org</a>
                             </li>
                         </ul>
                     </div>
@@ -132,7 +132,31 @@
                             <li class="nav-item">
                                 <a href="/" class="nav-link active">Home</a>
                             </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">About</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="{{ route('about') }}" class="nav-link">About BRROSO</a>
+                                    </li>
 
+                                    <li class="nav-item">
+                                        <a href="{{ route('team') }}" class="nav-link">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('faq') }}" class="nav-link">FAQ</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+                            
+
+                           
+                            
+
+                            <li class="nav-item">
+                                <a href="{{ route('causes') }}" class="nav-link">Causes</a>
+                            </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link dropdown-toggle">Media</a>
                                 <ul class="dropdown-menu">
@@ -154,27 +178,6 @@
 
 
                                 </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">About</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="{{ route('about') }}" class="nav-link">About BRROSO</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="{{ route('team') }}" class="nav-link">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="{{ route('faq') }}" class="nav-link">FAQ</a>
-                                    </li>
-
-
-                                </ul>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="{{ route('causes') }}" class="nav-link">Causes</a>
                             </li>
 
 
