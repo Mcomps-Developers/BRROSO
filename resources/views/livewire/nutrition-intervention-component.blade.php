@@ -84,24 +84,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 col-lg-6">
-                                    <div class="right">
-                                        <ul>
-                                            <li>
-                                                <span>Tags:</span>
-                                            </li>
-                                            <li>
-                                                <a href="#">#Donation</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">#Food</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">#Help</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                         <div class="details-payment">

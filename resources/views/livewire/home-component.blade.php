@@ -204,7 +204,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation4.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('food')}}">More Details</a>
+                            <a class="common-btn" href="{{route('wash')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
@@ -227,7 +227,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation5.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('food')}}">More Details</a>
+                            <a class="common-btn" href="{{route('shelter')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
