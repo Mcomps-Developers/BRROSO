@@ -4,6 +4,7 @@ use App\Livewire\AboutComponent;
 use App\Livewire\BlogComponent;
 use App\Livewire\BlogDetailsComponent;
 use App\Livewire\CausesComponent;
+use App\Livewire\ComingSoonComponent;
 use App\Livewire\ContactComponent;
 
 use App\Livewire\DonationsDetailsComponent;
@@ -50,4 +51,5 @@ Route::get('/health-intervention',HealthInterventionComponent::class)->name('hea
 Route::get('/protection-intervention',ProtectionInterventionComponent::class)->name('protection');
 Route::get('/shelter-intervention',ShelterInterventionComponent::class)->name('shelter');
 Route::get('/nutrition-intervention',NutritionInterventionComponent::class)->name('nutrition');
+Route::get('/coming-soon',ComingSoonComponent::class)->name('coming.soon');
 

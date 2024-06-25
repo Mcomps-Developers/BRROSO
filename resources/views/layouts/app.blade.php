@@ -161,12 +161,12 @@
                                 <a href="#" class="nav-link dropdown-toggle">Media</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ route('blog') }}" class="nav-link">Blogs</a>
+                                        <a href="{{ route('coming.soon') }}" class="nav-link">Blogs</a>
                                     </li>
 
 
                                     <li class="nav-item">
-                                        <a href="{{ route('events') }}" class="nav-link">Events</a>
+                                        <a href="{{ route('coming.soon') }}" class="nav-link">Events</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ asset('assets/img/brroprofile.pdf') }}" class="nav-link">Company profile</a>
