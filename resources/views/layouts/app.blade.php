@@ -116,7 +116,7 @@
 
         <div class="mobile-nav">
             <a href="/" class="logo">
-                <img src="{{ asset('assets/img/logo.jpg') }}" height="60" width="60">
+                <img src="{{ asset('assets/img/logo.jpg') }}" height="50" width="50">
             </a>
         </div>
 
@@ -124,8 +124,8 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="/">
-                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="60" width="60">
-                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-two" height="60" width="60">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="75" width="75">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-two" height="75" width="75">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
