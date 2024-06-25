@@ -28,24 +28,16 @@
                     <div class="details-item">
                         <div class="details-img">
 
-                            <h6>1. Provision of clinical management of rape services: </h6>
-                            <p>Providing medical care and support to survivors of rape through existing GBV one-stop 
-                                centers and safe spaces for women and girls.</p>
-                            <h6>2. Support for specialized case management and psycho-social support:</h6>
-                            <p>Assisting survivors through specialized case management, psycho-social support, and 
-                                counseling services available at GBV one-stop centers and safe spaces.</p>
-                            <h6>3.Support for the procurement and distribution of dignity kits:</h6>
-                            <p> Ensuring the provision of dignity kits containing essential items for personal hygiene and wellbeing.</h2>
-
-                            <h6>4. Cash and vouchers assistance:</h2>
-                            <p>Providing cash and vouchers assistance to vulnerable women and girls through case 
-                                management systems and conditional cash transfers, based on the standard GBV criteria.</p>
-                            <h6>5. Provision of legal aid services and information:  </h6>
-                            <p>Offering legal aid services and information to GBV survivors, empowering them to seek 
-                                justice and protection.  </p>
-                                <h6>6. Awareness raising and outreach activities: </h6>
-                            <p>Conducting activities to raise awareness about the availability of services, prevention of GBV, and 
-                                mitigation strategies. </p>
+                            <h6>1. Distribution of Non-Food Items (NFIs) kits: </h6>
+                            <p>Providing essential non-food items such as blankets, mattresses, cooking utensils, and other 
+                                household items to meet the immediate needs of displaced individuals. </p>
+                            <h6>2. Distribution of Emergency Shelter kits: </h6>
+                            <p>Supplying emergency shelter kits, including materials and tools for temporary shelter 
+                                construction, to assist displaced individuals in establishing safe and secure living spaces. 
+                                 By implementing these interventions, the NGO aims to address the immediate needs and 
+                                vulnerabilities of effected populations, promote their well-being, and support their recovery 
+                                resilience in the challenging circumstances</p>
+                            
                                 
                                 
 
