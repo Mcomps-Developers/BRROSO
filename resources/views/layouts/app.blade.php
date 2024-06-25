@@ -169,7 +169,7 @@
                                         <a href="{{ route('events') }}" class="nav-link">Events</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Company profile</a>
+                                        <a href="storage/app/companyprofile/brroprofile.pdf" class="nav-link">Company profile</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ route('privacy.policy') }}" class="nav-link">Privacy Policy</a>
