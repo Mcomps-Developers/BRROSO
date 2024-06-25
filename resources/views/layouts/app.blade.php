@@ -116,7 +116,7 @@
 
         <div class="mobile-nav">
             <a href="/" class="logo">
-                <img src="{{ asset('assets/img/logo.jpg') }}" height="40" width="40">
+                <img src="{{ asset('assets/img/logo.jpg') }}" height="40">
             </a>
         </div>
 
@@ -124,8 +124,8 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="/">
-                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="60" width="60">
-                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-two" height="60" width="60">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-one" height="45">
+                        <img src="{{ asset('assets/img/logo.jpg') }}" class="logo-two" height="45">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
@@ -149,10 +149,10 @@
 
                                 </ul>
                             </li>
-                            
 
-                           
-                            
+
+
+
 
                             <li class="nav-item">
                                 <a href="{{ route('causes') }}" class="nav-link">Causes</a>
@@ -211,7 +211,7 @@
                     <div class="footer-item">
                         <div class="footer-logo">
                             <a class="logo" href="/">
-                                <img src="{{ asset('assets/img/logo.jpg') }}" height="60" width="60">
+                                <img src="{{ asset('assets/img/logo.jpg') }}" height="45">
                             </a>
                             <p>Join us in our commitment to provide relief and recovery services to vulnerable communities in Somalia.
                                 Together, we can make a lasting impact and contribute to positive change. </p>
