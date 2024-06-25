@@ -31,8 +31,8 @@
 
                         </div>
                         <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>CEO & Founder</span>
+                            <h3>Suleiman Aden Haydar</h3>
+                            <span>Board Chairman</span>
                         </div>
                     </div>
                 </div>
@@ -43,8 +43,9 @@
 
                         </div>
                         <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Hr Manager</span>
+                            <h3>Abdifatah Abdirahman Ibrahim
+                            </h3>
+                            <span>Executive Director</span>
                         </div>
                     </div>
                 </div>
@@ -55,8 +56,8 @@
 
                         </div>
                         <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Director</span>
+                            <h3>Mohamed Issack Dima</h3>
+                            <span>Executive manager/Director</span>
                         </div>
                     </div>
                 </div>

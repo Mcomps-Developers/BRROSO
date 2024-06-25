@@ -56,9 +56,9 @@
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">Areas Of Focus</span>
-                
+
             </div>
-            
+
             <div class="row">
                 <div class="col-sm-6 col-lg-6">
                     <div class="dream-item">
@@ -70,7 +70,7 @@
                             sustainable manner, protecting the environment, and promoting sustainable development. This value
                             also recognizes the importance of building resilience in individuals, communities, and systems to
                             cope with the impacts of climate change, natural disasters, and other challenges</p>
-                        
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
@@ -82,7 +82,7 @@
                             displacement. We provide life-saving interventions, including food and clean water distribution,
                             emergency healthcare, shelter, and protection services. Our goal is to address the immediate needs of
                             affected communities, ensuring their survival and well-being.</p>
-                        
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
@@ -94,7 +94,7 @@
                             implement programs that support economic empowerment, vocational training, and
                             entrepreneurship, enabling vulnerable individuals and communities to regain self-sufficiency and
                             improve their socio-economic conditions.</p>
-                        
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
@@ -107,7 +107,7 @@
                             and child health, nutrition support, immunization campaigns, and disease prevention and control.
                             Through our initiatives, we aim to reduce mortality rates, prevent the spread of diseases, and
                             improve overall well-being.</p>
-                        
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
@@ -120,7 +120,7 @@
                             teacher training programs. Additionally, we prioritize child protection, advocating for the rights of
                             children, preventing exploitation, and providing psychosocial support to help them recover from
                             trauma.</p>
-                        
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
@@ -132,7 +132,7 @@
                             collaborate with communities to develop and implement disaster risk reduction strategies, early
                             warning systems, and resilience-building initiatives. By strengthening community capacities and
                             promoting sustainable practices, we aim to minimize vulnerability and enhance preparedness.</p>
-                        
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-6">
@@ -145,7 +145,7 @@
                             adopting a holistic approach, BRRO aims to establish well-managed camps that meet
                             internationally recognized standards, while ensuring the protection, safety, and dignity of those
                             residing in these camps.</p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@
             </div>
         </div>
     </div>
-    
+
 
 
     <section class="team-area four pt-100 pb-70">
@@ -222,16 +222,16 @@
                 <p>The Board of Directors is responsible for providing overall strategic direction and governance for
                     Bilan Relief and Recovery Organization (BRRO) </p>
             </div>
-            <div class="row justify-content-center">
+            {{-- <div class="row justify-content-center">
                 <div class="col-sm-6 col-lg-4">
                     <div class="team-item">
                         <div class="top">
                             <img src="{{ ('assets/img/team/team1.jpg') }}" alt="Team">
-                            
+
                         </div>
                         <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Director</span>
+                            <h3>Suleiman Aden Haydar</h3>
+                            <span>Executive Director</span>
                         </div>
                     </div>
                 </div>
@@ -239,11 +239,11 @@
                     <div class="team-item">
                         <div class="top">
                             <img src="{{ ('assets/img/team/team2.jpg') }}" alt="Team">
-                            
+
                         </div>
                         <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Director</span>
+                            <h3>Mohamed Issack Dima</h3>
+                            <span>Executive Director</span>
                         </div>
                     </div>
                 </div>
@@ -251,15 +251,15 @@
                     <div class="team-item">
                         <div class="top">
                             <img src="{{ ('assets/img/team/team3.jpg') }}" alt="Team">
-                            
+
                         </div>
                         <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Director</span>
+                            <h3>Mohamed Issack Dima </h3>
+                            <span>Executive manager/Director</span>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </section>
 
