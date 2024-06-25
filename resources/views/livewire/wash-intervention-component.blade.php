@@ -11,7 +11,7 @@
                                 <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <span>Donation Details</span>
+                                <span>Wash Intervention</span>
                             </li>
                         </ul>
                     </div>
