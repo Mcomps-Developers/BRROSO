@@ -116,7 +116,7 @@
 
         <div class="mobile-nav">
             <a href="/" class="logo">
-                <img src="{{ asset('assets/img/logo.jpg') }}" height="50" width="50">
+                <img src="{{ asset('assets/img/logo.jpg') }}" height="40" width="40">
             </a>
         </div>
 

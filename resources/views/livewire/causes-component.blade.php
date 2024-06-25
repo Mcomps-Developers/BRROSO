@@ -11,7 +11,7 @@
                                 <a href="/">Home</a>
                             </li>
                             <li>
-                                <span>Donations</span>
+                                <span>Causes We Care About</span>
                             </li>
                         </ul>
                     </div>
@@ -25,7 +25,7 @@
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">What We Care About</span>
-                <h2>CAMP COORDINATION AND CAMP MANAGEMENT (CCCM) INTERVENTION:</h2>
+                <h2>OUR CCCM Focus</h2>
                 <p>The Camp Coordination and Camp Management (CCCM) intervention focuses on effective
                     coordination and management of camps to provide assistance and protection to internally displaced
                     persons (IDPs).</p>
@@ -48,15 +48,8 @@
                             </div>
                             <div class="bottom">
                                 <div class="skill">
-                                    <div class="skill-bar skill1 wow fadeInLeftBig">
-                                        <span class="skill-count1">85%</span>
-                                    </div>
                                 </div>
-                                <ul>
-                                    <li>Raised: $5,500.00</li>
-                                    <li>Goal: $7,000.00</li>
-                                </ul>
-                                <h4>Donated by <span>60 people</span></h4>
+                                <h4>About <span>0 people</span> sponsoring our efforts.</h4>
                             </div>
                         </div>
                     </div>
@@ -78,15 +71,8 @@
                             </div>
                             <div class="bottom">
                                 <div class="skill">
-                                    <div class="skill-bar skill2 wow fadeInLeftBig">
-                                        <span class="skill-count2">95%</span>
-                                    </div>
                                 </div>
-                                <ul>
-                                    <li>Raised: $6,500.00</li>
-                                    <li>Goal: $8,050.00</li>
-                                </ul>
-                                <h4>Donated by <span>50 people</span></h4>
+                                <h4>About <span>0 people</span> sponsoring our efforts.</h4>
                             </div>
                         </div>
                     </div>
@@ -108,15 +94,8 @@
                             </div>
                             <div class="bottom">
                                 <div class="skill">
-                                    <div class="skill-bar skill3 wow fadeInLeftBig">
-                                        <span class="skill-count3">90%</span>
-                                    </div>
                                 </div>
-                                <ul>
-                                    <li>Raised: $5,540.00</li>
-                                    <li>Goal: $6,055.00</li>
-                                </ul>
-                                <h4>Donated by <span>40 people</span></h4>
+                                <h4>About <span>0 people</span> sponsoring our efforts.</h4>
                             </div>
                         </div>
                     </div>
@@ -138,15 +117,8 @@
                             </div>
                             <div class="bottom">
                                 <div class="skill">
-                                    <div class="skill-bar skill4 wow fadeInLeftBig">
-                                        <span class="skill-count4">80%</span>
-                                    </div>
                                 </div>
-                                <ul>
-                                    <li>Raised: $5,56.00</li>
-                                    <li>Goal: $6,85.00</li>
-                                </ul>
-                                <h4>Donated by <span>30 people</span></h4>
+                                <h4>About <span>0 people</span> sponsoring our efforts.</h4>
                             </div>
                         </div>
                     </div>
@@ -168,15 +140,8 @@
                             </div>
                             <div class="bottom">
                                 <div class="skill">
-                                    <div class="skill-bar skill5 wow fadeInLeftBig">
-                                        <span class="skill-count5">75%</span>
-                                    </div>
                                 </div>
-                                <ul>
-                                    <li>Raised: $5,5.00</li>
-                                    <li>Goal: $3,85.00</li>
-                                </ul>
-                                <h4>Donated by <span>20 people</span></h4>
+                                <h4>About <span>0 people</span> sponsoring our efforts.</h4>
                             </div>
                         </div>
                     </div>
@@ -198,15 +163,8 @@
                             </div>
                             <div class="bottom">
                                 <div class="skill">
-                                    <div class="skill-bar skill6 wow fadeInLeftBig">
-                                        <span class="skill-count6">70%</span>
-                                    </div>
                                 </div>
-                                <ul>
-                                    <li>Raised: $9,5.00</li>
-                                    <li>Goal: $3,84.00</li>
-                                </ul>
-                                <h4>Donated by <span>10 people</span></h4>
+                                <h4>About <span>0 people</span> sponsoring our efforts.</h4>
                             </div>
                         </div>
                     </div>
