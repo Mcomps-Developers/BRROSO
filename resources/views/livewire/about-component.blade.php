@@ -55,75 +55,97 @@
     <section class="dream-area pt-100 pb-70">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">Fulfill our dream</span>
-                <h2>Let's make a change</h2>
-                <p>We exist for non-profits, social enterprises, community groups, activists,lorem politicians and
-                    individual citizens that are making.</p>
+                <span class="sub-title">Areas Of Focus</span>
+                
             </div>
+            
             <div class="row">
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-6">
                     <div class="dream-item">
                         <h3>
-                            <a href="{{ route('causes') }}">Over 20M+ people around the world is having good life because of
-                                Findo</a>
+                            <a href="{{ route('causes') }}">SUSTAINABILITY AND RESILIENCE</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots.</p>
-                        <h4><span>*50</span>country served world wide</h4>
-                        <span class="sub-span">01</span>
+                        <p>This value emphasizes the importance of building a sustainable and resilient society that can
+                            withstand the challenges of the present and future. It calls for using resources in a responsible and
+                            sustainable manner, protecting the environment, and promoting sustainable development. This value
+                            also recognizes the importance of building resilience in individuals, communities, and systems to
+                            cope with the impacts of climate change, natural disasters, and other challenges</p>
+                        
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-6">
                     <div class="dream-item">
                         <h3>
-                            <a href="{{ route('donation.details') }}">We are supporting the poor and homeless people by providing
-                                food</a>
+                            <a href="{{ route('donation.details') }}">EMERGENCY RESPONSE AND RELIEF</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots.</p>
-                        <h4><span>*Food</span>served world wide</h4>
-                        <span class="sub-span">02</span>
+                        <p>BRRO is committed to swiftly responding to emergencies, such as conflict, droughts, floods, and
+                            displacement. We provide life-saving interventions, including food and clean water distribution,
+                            emergency healthcare, shelter, and protection services. Our goal is to address the immediate needs of
+                            affected communities, ensuring their survival and well-being.</p>
+                        
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-6">
                     <div class="dream-item">
                         <h3>
-                            <a href="{{ route('donation.details') }}">First time a non- profitable organization is fighting against the
-                                poverty</a>
+                            <a href="{{ route('donation.details') }}">SUSTAINABLE LIVELIHOODS</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots.</p>
-                        <h4><span>*Finance</span>collecting & donating</h4>
-                        <span class="sub-span">03</span>
+                        <p>BRRO recognizes the importance of sustainable livelihoods in promoting long-term recovery. We
+                            implement programs that support economic empowerment, vocational training, and
+                            entrepreneurship, enabling vulnerable individuals and communities to regain self-sufficiency and
+                            improve their socio-economic conditions.</p>
+                        
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-6">
                     <div class="dream-item">
                         <h3>
-                            <a href="{{ route('donation.details') }}">Over 1200+ volunteer working for Findo around the world</a>
+                            <a href="{{ route('donation.details') }}">HEALTH AND NUTRITION</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots.</p>
-                        <h4><span>*Volunteer</span>in every Country</h4>
-                        <span class="sub-span">04</span>
+                        <p>BRRO places a strong emphasis on improving health and nutrition outcomes for communities
+                            affected by crises. We work to enhance access to quality healthcare services, including maternal
+                            and child health, nutrition support, immunization campaigns, and disease prevention and control.
+                            Through our initiatives, we aim to reduce mortality rates, prevent the spread of diseases, and
+                            improve overall well-being.</p>
+                        
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-6">
                     <div class="dream-item">
                         <h3>
-                            <a href="{{ route('donation.details') }}">Hands move to support in Yemen combat covid-19 by donating face
-                                masks</a>
+                            <a href="{{ route('donation.details') }}">EDUCATION AND CHILD PROTECTION</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots.</p>
-                        <h4><span>*Lockdown</span>covid-19 helping</h4>
-                        <span class="sub-span">05</span>
+                        <p>BRRO is dedicated to ensuring access to quality education for children affected by crises. We
+                            establish safe and inclusive learning environments, provide educational materials, and support
+                            teacher training programs. Additionally, we prioritize child protection, advocating for the rights of
+                            children, preventing exploitation, and providing psychosocial support to help them recover from
+                            trauma.</p>
+                        
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-6">
                     <div class="dream-item">
                         <h3>
-                            <a href="{{ route('donation.details') }}">This project seeks to build houses for reduce their suffering allow
-                                them to live</a>
+                            <a href="{{ route('donation.details') }}">DISASTER RISK REDUCTION AND RESILIENCE</a>
                         </h3>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots.</p>
-                        <h4><span>*150</span>house project</h4>
-                        <span class="sub-span">06</span>
+                        <p>BRRO recognizes the importance of proactive measures in reducing the impact of disasters. We
+                            collaborate with communities to develop and implement disaster risk reduction strategies, early
+                            warning systems, and resilience-building initiatives. By strengthening community capacities and
+                            promoting sustainable practices, we aim to minimize vulnerability and enhance preparedness.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="dream-item">
+                        <h3>
+                            <a href="{{ route('donation.details') }}">CAMP COORDINATION AND CAMP MANAGEMENT(CCM)</a>
+                        </h3>
+                        <p>BRRO's primary objective within the realm of Camp Coordination and Camp Management is to
+                            enhance the living conditions and overall well-being of displaced populations in Somalia. By
+                            adopting a holistic approach, BRRO aims to establish well-managed camps that meet
+                            internationally recognized standards, while ensuring the protection, safety, and dignity of those
+                            residing in these camps.</p>
+                        
                     </div>
                 </div>
             </div>
