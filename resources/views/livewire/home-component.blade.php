@@ -8,7 +8,7 @@
                             <div class="banner-content">
 
                                 <div class="banner-btn-area">
-                                    <a class="common-btn banner-btn" href="#">Get Start A Fundraising</a>
+                                    
                                     <a class="common-btn" href="#">Donate Now</a>
                                 </div>
                             </div>

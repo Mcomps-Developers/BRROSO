@@ -5,7 +5,7 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="title-item">
-                        <h2>PROTECTION (GBV) INTERVENTION:</h2>
+                        <h2>SHELTER INTERVENTION:</h2>
                         <ul>
                             <li>
                                 <a href="index.html">Home</a>
