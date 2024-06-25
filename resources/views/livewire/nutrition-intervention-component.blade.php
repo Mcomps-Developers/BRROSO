@@ -5,7 +5,7 @@
             <div class="d-table-cell">
                 <div class="container">
                     <div class="title-item">
-                        <h2>HEALTH INTERVENTION:</h2>
+                        <h2>NUTRITION INTERVENTION:</h2>
                         <ul>
                             <li>
                                 <a href="index.html">Home</a>
@@ -28,32 +28,28 @@
                     <div class="details-item">
                         <div class="details-img">
 
-                            <h6>1. Provision of essential primary healthcare services: </h6>
-                            <p>Delivering comprehensive primary healthcare services, including clinical care, child
-                                healthcare, immunization, communicable disease treatment, TB screening and treatment,
-                                and
-                                emergency and trauma care. </p>
-                            <h6>2.Provision of essential medicines and supplies: </h6>
-                            <p>Ensuring the availability of essential medicines and medical supplies to meet the
-                                healthcare
-                                needs of the population. </p>
-                            <h6>3.Provision of sexual and reproductive health services:</h6>
-                            <p>Offering services such as antenatal care (ANC), postnatal care (PNC), safe deliveries,
-                                and
-                                dignity kits for pregnant mothers. </h2>
+                            <h6>1. Mass MUAC screening and promotion of Family MUAC approach:  </h6>
+                            <p>Conducting mass screening using Mid-Upper Arm Circumference (MUAC) measurement to 
+                                identify individuals, especially children, with acute malnutrition. Promoting the use of the 
+                                Family MUAC approach, which involves screening and monitoring the nutritional status of 
+                                family members. </p>
+                            <h6>2. Provision of inpatient and outpatient care services: </h6>
+                            <p>Providing specialized care and treatment for severely malnourished children with medical 
+                                complications through stabilization centers. Offering outpatient therapeutic programs for the 
+                                treatment of children with severe acute malnutrition at fixed health facilities and through 
+                                outreach services. </p>
+                            <h6>3.Provision of targeted supplementary feeding programs: </h6>
+                            <p> Providing supplementary 
+                                feeding programs for children and pregnant and lactating women with moderate acute malnutrition. 
+                                These programs are implemented at fixed health facilities and through outreach services</h2>
 
-                            <h6>4. Provision of trauma care services:</h2>
+                            <h6>4. Promotion of maternal, infant, and young child nutrition: </h2>
                             <p>Providing specialized care and support to individuals who have experienced trauma or
                                 injuries.</p>
-                            <h6>5. Establishing referral pathways</h6>
-                            <p>Creating pathways for mental health and psychosocial support services to ensure 
-                                comprehensive care for individuals in need.</p>
-                                <h6>6. Infection Prevention and Control (IPC):</h6>
-                            <p>Implementing measures to prevent and control the spread of infections within the camps.</p>
-                                <h6>7. Health awareness, social mobilization, education, and advocacy 
-                                    activities:</h6>
-                            <p>Conducting community-based activities to raise awareness about disease control, general wellbeing, and health and nutrition. This includes the involvement of Community Health Workers 
-                                (CHWs) in delivering health education and promoting healthy practices.</p>
+                            <h6>5. Scaling up/strengthening the Community Health Workers (CHW) system: </h6>
+                            <p>Strengthening the capacity of Community Health Workers to promote nutrition and provide 
+                                education and counseling on optimal nutrition practices. </p>
+                                
 
 
                         </div>
