@@ -147,13 +147,13 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation1.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('health')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
                                 <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="{{route('donation.details')}}">Health Intervation</a>
+                                    <a href="{{route('health')}}">Health Intervation</a>
                                 </h3>
                                 <p>Health intervention provides primary healthcare, medicines, reproductive health services,
                                      trauma care, and community education efforts.</p>
@@ -177,13 +177,13 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation2.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('nutrition')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
                                 <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="{{route('donation.details')}}">Nutrition Intervention</a>
+                                    <a href="{{route('nutrition')}}">Nutrition Intervention</a>
                                 </h3>
                                 <p>Nutrition intervention targets malnutrition with screenings, care services,
                                      feeding programs, and CHW education efforts.</p>
@@ -207,13 +207,13 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation3.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('protection')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
                                 <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="{{route('donation.details')}}">Protection Intervention</a>
+                                    <a href="{{route('protection')}}">Protection Intervention</a>
                                 </h3>
                                 <p>WASH intervention improves water access, sanitation, and hygiene through
                                     infrastructure, emergency supplies, and hygiene promotion.</p>
@@ -237,13 +237,13 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation4.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('food')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
                                 <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="{{route('donation.details')}}">Wash Intervention</a>
+                                    <a href="{{route('wash')}}">Wash Intervention</a>
                                 </h3>
                                 <p>WASH intervention improves water access, sanitation, and hygiene
                                     through infrastructure, emergency supplies, and hygiene promotion.</p>
@@ -267,13 +267,13 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation5.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('food')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
                                 <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="{{route('donation.details')}}">Shelter Intervention</a>
+                                    <a href="{{route('shelter')}}">Shelter Intervention</a>
                                 </h3>
                                 <p>Shelter intervention includes distributing NFIs and emergency shelter kits to
                                     support displaced individuals</p>
@@ -297,13 +297,13 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation6.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('donation.details')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('food')}}">Donate Now</a>
                         </div>
                         <div class="inner">
                             <div class="top">
                                 <a class="tags" href="#"></a>
                                 <h3>
-                                    <a href="{{route('donation.details')}}">Food Security</a>
+                                    <a href="{{route('food')}}">Food Security</a>
                                 </h3>
                                 <p>Food security intervention provides cash transfers, emergency inputs,
                                      and prioritizes vulnerable groups in drought-affected communities.</p>
