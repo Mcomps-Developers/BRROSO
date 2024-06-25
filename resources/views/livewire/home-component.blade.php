@@ -328,7 +328,7 @@
     </section>
 
 
-    <section class="work-area pt-100 pb-70">
+    {{-- <section class="work-area pt-100 pb-70">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -366,34 +366,97 @@
                 </div>
             </div>
         </div>
+    </section> --}}
+    <section class="dream-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title">
+                <span class="sub-title">Our Approach</span>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-6 col-lg-6">
+                    <div class="dream-item">
+                        <h3>
+                            Impact and Reach
+                        </h3>
+                        <p>BRRO has been at the forefront of humanitarian efforts, providing relief and recovery services
+                            to vulnerable communities across Somalia. Through our dedicated team of staff and volunteers,
+                            we have reached thousands of individuals, improving their lives and fostering resilience in the
+                            face of adversity. Our programs have contributed to reduced mortality rates, improved access
+                            to basic services, increased livelihood opportunities, and enhanced community well-being. </p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="dream-item">
+                        <h3>
+                            Partnerships and Collaborations
+                        </h3>
+                        <p>BRRO recognizes the importance of collaboration to achieve sustainable impact. We work
+                            closely with national and international partners, including governmental agencies, non-
+                            governmental organizations, and community-based organizations. By leveraging collective
+                            expertise and resources, we aim to enhance the effectiveness and efficiency of our programs,
+                            ensuring a holistic approach to relief and recovery</p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="dream-item">
+                        <h3>
+                            Inclusivity for persons with disabilities
+                        </h3>
+                        <p>BRRO recognizes the importance of collaboration to achieve sustainable impact. We work
+                            closely with national and international partners, including governmental agencies, non-
+                            governmental organizations, and community-based organizations. By leveraging collective
+                            expertise and resources, we aim to enhance the effectiveness and efficiency of our programs,
+                            ensuring a holistic approach to relief and recovery.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <div class="dream-item">
+                        <h3>
+                            Programming
+                        </h3>
+                        <p>Overall, DRRO is a committed and effective organization that is making a significant
+                            difference in the lives of communities in South Central Somalia. Its commitment to gender
+                            equality, human rights, peacebuilding, technology and innovation, and other key areas make it
+                            a model for effective humanitarian and development work </p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </section>
 
 
-    <div class="benefit-area pt-100 pb-70">
+    {{-- <div class="benefit-area pt-100 pb-70">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-6">
                     <div class="benefit-item">
                         <i class="flaticon-house"></i>
                         <h3>Build Homes</h3>
                         <p>Providing shelter and building homes for those in need of housing.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-6">
                     <div class="benefit-item two">
                         <i class="flaticon-hospital"></i>
                         <h3>Medical Facilities</h3>
                         <p>Ensuring access to medical facilities and healthcare services for communities.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-6">
                     <div class="benefit-item three">
                         <i class="flaticon-fast-food"></i>
                         <h3>Food & Water</h3>
                         <p>Providing nutritious food and clean water to address hunger and improve health.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-6">
                     <div class="benefit-item four">
                         <i class="flaticon-graduation-cap"></i>
                         <h3>Education Facilities</h3>
@@ -403,7 +466,7 @@
             </div>
 
         </div>
-    </div>
+    </div> --}}
 
 
     {{-- <section class="event-area pt-100 pb-70">
@@ -413,7 +476,7 @@
                 <h2>Upcoming events near you</h2>
             </div>
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-3">
                     <div class="event-item">
                         <img src="{{ asset('assets/img/event/event1.jpg') }}" alt="Event">
                         <div class="inner">
