@@ -9,7 +9,7 @@
 
                                 <div class="banner-btn-area">
                                     
-                                    <a class="common-btn" href="#">Donate Now</a>
+                                    <a class="common-btn" href="#">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@
 
                                 <div class="banner-btn-area">
                                     <a class="common-btn banner-btn" href="#">Get Start A Fundraising</a>
-                                    <a class="common-btn" href="#">Donate Now</a>
+                                    <a class="common-btn" href="#">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
 
                                 <div class="banner-btn-area">
                                     <a class="common-btn banner-btn" href="#">Get Start A Fundraising</a>
-                                    <a class="common-btn" href="#">Donate Now</a>
+                                    <a class="common-btn" href="#">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation1.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('health')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('health')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
@@ -177,7 +177,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation2.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('nutrition')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('nutrition')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
@@ -207,7 +207,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation3.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('protection')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('protection')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
@@ -237,7 +237,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation4.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('food')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('food')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
@@ -267,7 +267,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation5.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('food')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('food')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
@@ -297,7 +297,7 @@
                     <div class="donation-item">
                         <div class="img">
                             <img src="{{ asset('assets/img/donation/donation6.jpg') }}" alt="Donation">
-                            <a class="common-btn" href="{{route('food')}}">Donate Now</a>
+                            <a class="common-btn" href="{{route('food')}}">More Details</a>
                         </div>
                         <div class="inner">
                             <div class="top">
