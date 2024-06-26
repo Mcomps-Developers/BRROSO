@@ -46,20 +46,7 @@
                         <a href="tel:548658956">+252615654181</a>
                     </div>
                 </div>
-                {{-- <div class="col-sm-6 col-lg-4">
-                    <div class="contact-info">
-                        <i class="icofont-ui-email"></i>
-                        <span>Email:</span>
-                        <a
-                            href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#e28a878e8e8da2848b8c868dcc818d8f"><span
-                                class="__cf_email__"
-                                data-cfemail="fb939e979794bb9d92959f94d5989496">[email&#160;protected]</span></a>
-                        <a
-                            href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#8de4e3ebe2cdebe4e3e9e2a3eee2e0"><span
-                                class="__cf_email__"
-                                data-cfemail="0b62656d644b6d62656f6425686466">[email&#160;protected]</span></a>
-                    </div>
-                </div> --}}
+
             </div>
         </div>
     </div>
@@ -69,8 +56,7 @@
         <div class="container">
             <form id="contactForm">
                 <h2>Let's talk...!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, iusto possimus doloremque amet
-                    vitae facere blanditiis nulla explicabo obcaecati nihil ipsam deleniti nesciunt illo, non iure</p>
+                <p>Let's have a conversation how we can change lives of our people</p>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="form-group">
@@ -148,10 +134,6 @@
     </div>
 
 
-    <div class="map-area">
-        <iframe id="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59843174.53779285!2d62.17507173408571!3d23.728204508550363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3663f18a24cbe857%3A0xa9416bfcd3a0f459!2sAsia!5e0!3m2!1sen!2sbd!4v1603558902714!5m2!1sen!2sbd"
-            allowfullscreen aria-hidden="false" tabindex="0"></iframe>
-    </div>
+    
 
 </div>
