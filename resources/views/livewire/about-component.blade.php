@@ -242,7 +242,7 @@
 
                         </div>
                         <div class="bottom">
-                            <h3>Mohamed Issack Dima</h3>
+                            <h3>Abdifatah Abdirahman Ibrahim</h3>
                             <span>Executive Director</span>
                         </div>
                     </div>
