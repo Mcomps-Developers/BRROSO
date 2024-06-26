@@ -222,7 +222,7 @@
                 <p>The Board of Directors is responsible for providing overall strategic direction and governance for
                     Bilan Relief and Recovery Organization (BRRO) </p>
             </div>
-            {{-- <div class="row justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-sm-6 col-lg-4">
                     <div class="team-item">
                         <div class="top">
@@ -259,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </section>
 
