@@ -54,7 +54,7 @@
                             </li>
                             <li>
                                 <i class="icofont-ui-email"></i>
-                                <a href="bilan.brro@gmail.com">info@brroso.org</a>
+                                <a href="bilan.brro@gmail.com">bilan@brroso.org</a>
                             </li>
                         </ul>
                     </div>
@@ -83,14 +83,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="language">
-                            <select>
-                                <option>English</option>
-                                <option>العربيّة</option>
-                                <option>Deutsch</option>
-                                <option>Português</option>
-                            </select>
-                        </div>
+                        
                         <div class="header-search">
                             <i id="search-btn" class="icofont-search-2"></i>
                             <div id="search-overlay" class="block">

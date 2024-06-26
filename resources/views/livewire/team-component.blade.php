@@ -61,62 +61,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="team-item">
-                        <div class="top">
-                            <img src="{{ asset('assets/img/team/team4.jpg') }}" alt="Team">
+                
 
-                        </div>
-                        <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Communication Manager</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="team-item">
-                        <div class="top">
-                            <img src="{{ asset('assets/img/team/team5.jpg') }}" alt="Team">
 
-                        </div>
-                        <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Admin</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="team-item">
-                        <div class="top">
-                            <img src="{{ asset('assets/img/team/team6.jpg') }}" alt="Team">
-
-                        </div>
-                        <div class="bottom">
-                            <h3>Example Name</h3>
-                            <span>Operation Manager</span>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="pagination-area">
-                <ul>
-                    <li>
-                        <a href="#">Prev</a>
-                    </li>
-                    <li>
-                        <a class="active" href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">Next</a>
-                    </li>
-                </ul>
-            </div>
+
         </div>
     </section>
 
